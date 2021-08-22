@@ -172,6 +172,11 @@ p{
 }
 
 @media (max-width: 500px) {
+    
+        #title{
+            text-align: center;
+        }
+    
         .card{
             position: relative;
             right: 26.25px;
