@@ -1,0 +1,173 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3{
+    font-weight: 700;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+/* title */
+#title{
+    background-color: #59f095;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.logo-nav{
+    width: 8.75rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* download button */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+}
+
+
+
+/* features */
+#feature{
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.color{
+    margin-bottom: 1rem;
+    color: #59f095;
+}
+
+.color:hover{
+    color: #50CB93;
+}
+
+/* testimonial section */
+#testimonials{
+    background-color: #50CB93;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testi-img{
+    margin: 20px;
+    width: 10%;
+}
+
+#press{
+    text-align: center;
+    background-color: #50CB93;
+    padding-bottom: 4%;
+}
+
+.press-logo{
+    width: 17%;
+    padding: 20px 20px 50px;
+}
+
+/* product */
+
+#product{
+    text-align: center;
+    padding: 100px;
+}
+
+.product-col{
+    text-align: center;
+    padding: 3% 2%;
+}
+
+.card{
+    border: none;
+}
+
+
+/* cta */
+
+#cta{
+    background-color: #59f095;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+/* mobile screen */
+
+@media (max-width: 980px) {
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.6rem;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        width: 55%;
+        transform: rotate(0);
+    }
+}
