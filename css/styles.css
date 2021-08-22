@@ -61,7 +61,6 @@ p{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
-    position: relative;
 }
 
 
@@ -70,8 +69,6 @@ p{
 #feature{
     text-align: center;
     padding: 7% 15%;
-    position: relative;
-    z-index: 1;
 }
 
 .feature-box{
@@ -170,5 +167,15 @@ p{
         position: static;
         width: 55%;
         transform: rotate(0);
+    }
+    
+    .card{
+            position: relative;
+            right: 26.25px;
+    }
+    
+    .card-img-top{
+            margin: auto;
+            width: 80%;
     }
 }
