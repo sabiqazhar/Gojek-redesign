@@ -169,13 +169,23 @@ p{
         transform: rotate(0);
     }
     
-    .card{
+}
+
+@media (max-width: 500px) {
+        .card{
             position: relative;
             right: 26.25px;
-    }
+        }
     
-    .card-img-top{
+        .card-img-top{
             margin: auto;
             width: 80%;
+        }
     }
-}
+
+
+@media (max-width: 400px) {
+        .card{
+            right: 45.25px;
+        }
+    }
